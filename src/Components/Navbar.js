@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="NavBar_Main_box">
         <div className="MianBox_logo">
           <h1 className="ForWhite test">
-            <Link to="/">.OpenBook</Link>
+            <Link to="/Protfilio-book">.OpenBook</Link>
           </h1>
         </div>
 
