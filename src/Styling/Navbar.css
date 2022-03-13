@@ -6,15 +6,16 @@
   display: flex;
   padding: 20px;
   height: 144px;
-  background: #121212;
+  background: #E9F0F4;
 
 }
 .NavBar_Main_box {
   margin: auto;
-  border: 2px solid white;
+  border: 2px solid black;
   width: 1553px;
   height: 73px;
   display: flex;
+  background: white;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 13px;
@@ -26,11 +27,11 @@
 }
 /* ---------------------stying for white class name ForWhite ---------------------------------------------- */
 .ForWhite {
-  color: white;
+  color: black;
 }
 .ForWhite a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .MainBox_Main_List ul {
@@ -50,7 +51,6 @@
 }
 /* -----------------------stlyling for custom button------------------------ */
 .MianBox_login >button {
-  --color: #00ffffba;
   font-family: inherit;
   display: inline-block;
   width: 8em;

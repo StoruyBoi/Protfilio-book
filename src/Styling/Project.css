@@ -1,20 +1,22 @@
 .project_box {
-  /* background: #121212; */
+ background: #E9F0F4; 
 
-  color: white;
+  color: #1B1B1D;
   /* border: 2px solid; */
 }
 .content_upper {
   text-align: center;
 }
-.box_main_content {
-  display: flex;
-  flex-wrap: wrap;
 
-  margin: auto;
-  margin-top: 40px;
-  justify-content: center;
-  /* border: 2px solid; */
+
+.box_main_content {
+    display: flex;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: center;
+    /* border: 2px solid; */
 }
 .porjext_photo_section img {
   width: 88%;
@@ -28,9 +30,9 @@
   /* border: 2px solid; */
 }
 .main_conten_project {
-    overflow: hidden;
-    border-radius: 3px;
-    background: #1B1B1D;
+  overflow: hidden;
+  border-radius: 20px;
+  background: white;
 }
 .card_content {
   flex-direction: column;
@@ -39,17 +41,12 @@
   display: flex;
   padding-left: 17px;
 }
-.cards {
-}
-.card_title h1 {
-}
-.card_tag p {
-}
+
 /* -----------------fro card styling----------------- */
 
 .project_image {
   padding: 20px;
-  background: #1B1B1D;
+  background: white;
 }
 .formar {
   margin-top: 20px;
@@ -62,24 +59,27 @@
 
 .project_content {
   padding: 0 20px;
-  background: #1B1B1D;
+  background: white;
 }
 .project_title h1 {
-    background: #1B1B1D;
+  color: #1B1B1D;
+    background: white;
 }
 .project_tags p {
-    background: #1B1B1D;
+  background: white;
     color: skyblue;
 }
 .project_info p {
-    background: #1B1B1D;
+  color: #1B1B1D;
+  background: white;
     font-weight: 600;
 }
 .project_buttons {
-    background: #1B1B1D;
+  background: white;
     display: flex;
 }
 .project_buttons button {
+  background: #c0cbd1;
     display: flex;
     align-items: center;
     justify-content: center;

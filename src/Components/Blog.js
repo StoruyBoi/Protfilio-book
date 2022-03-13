@@ -12,7 +12,7 @@ export default function Blog() {
         </div>
         <div className="blog_lower_section">
           <div className="blog_main_content">
-            <div className="blog_content">
+            <div className="blog_content" >
               <div className="content_title">
                 <h1 id="forbg_blog">3 Months of Web Development</h1>
               </div>

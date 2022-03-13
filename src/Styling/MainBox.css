@@ -1,5 +1,6 @@
 .Main_box_contianer {
-  background: #121212;
+  background: #E9F0F4;
+  padding-bottom: 230px;
 
   display: flex;
   /* border: 2px solid white; */
@@ -23,7 +24,7 @@
   margin: 20px;
 }
 .content_box_paragraph {
-  color: rgba(255, 255, 255, 0.733);
+  color: black;
 }
 .content_box_paragraph > p {
   font-weight: 400;
@@ -31,7 +32,7 @@
   font-size: 2 rem;
 }
 .content_box_big_title > h1 {
-  color: white;
+  color: black;
   font-size: 4em;
 }
 .main_margin {
@@ -39,9 +40,11 @@
 }
 .main_margin a{
 text-decoration: none;
-color: white;
+color: black;
 }
 .content_box_samall_title > p {
+  color: cadetblue;
+
   font-weight: 700;
 }
 #mid_btn_space {

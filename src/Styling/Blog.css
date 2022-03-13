@@ -1,10 +1,13 @@
-.blog_container {   
-    color: white;
+.blog_container {
+    color: #1B1B1D;
+    padding-bottom: 70px;
     display: flex;
+    background: #E9F0F4;
     flex-direction: column;
     /* border: 2px solid; */
 }
 .blog_title{
+    color: #1B1B1D;
     text-align: center;
 }
 .blog_lower_section {
@@ -27,16 +30,17 @@
     margin-top: 20px;
 }
 .main_content {
-    color: rgb(255 255 255 / 77%);
+    color:#1B1B1D;
     margin-top: 60px;
 }
 .blog_content {
-    background: #1B1B1D;
+    background: white;
     padding: 50px;
     margin: 10px;
 }
 #forbg_blog{
-    background-color: #1B1B1D;
+
+    background-color: white;
 
 }
 

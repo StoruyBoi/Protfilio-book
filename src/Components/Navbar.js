@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import classes from "../Styling/Navbar.css";
+import   "../Styling/Navbar.css";
 import { Turn as Hamburger } from "hamburger-react";
 import Mobileversion from "./Mobileversion";
 import { Link } from "react-router-dom";
@@ -62,7 +62,7 @@ export default function Navbar() {
         <div className="hamburger">
           {" "}
           <Hamburger
-            color="White"
+            color="#121212"
             toggled={isOpen}
             toggle={setOpen}
             onClick={() => setOpen(!isOpen)}
