@@ -39,7 +39,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link className="ForWhite" to="/Project">
+              <Link className="ForWhite" to="/Project" >
                 PROJETCS
               </Link>
             </li>
