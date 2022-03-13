@@ -25,11 +25,11 @@ export default function MainBox() {
             </p>
           </div>
           <div className="MianBox_login">
-          <button id="mid_btn_space"><a href="https://www.linkedin.com/in/jasminder-singh-30a298214/"     target="_blank"><AiFillLinkedin size="20px"/>LinkedIn </a></button>
-          <button id="mid_btn_space"><a href="https://github.com/StoruyBoi"    target="_blank"><AiFillGithub size="20px" />GitHub</a></button>
-          <button id="mid_btn_space"><a href="https://twitter.com/jasminder200111"   target="_blank"><AiOutlineTwitter size="20px" />Twitter</a></button>
-          <button id="mid_btn_space"><a href="https://www.instagram.com/jasminder___singh/"  target="_blank"><AiFillInstagram size="20px" />Instagram</a></button>
-          <button id="mid_btn_space"><a href= "mailto: itsjasminder@gmail.com" target="_blank"><HiOutlineMail size="20px" />Email</a></button>
+          <button id="mid_btn_space"><a href="https://www.linkedin.com/in/jasminder-singh-30a298214/"><AiFillLinkedin size="20px"/>LinkedIn </a></button>
+          <button id="mid_btn_space"><a href="https://github.com/StoruyBoi"><AiFillGithub size="20px" />GitHub</a></button>
+          <button id="mid_btn_space"><a href="https://twitter.com/jasminder200111"><AiOutlineTwitter size="20px" />Twitter</a></button>
+          <button id="mid_btn_space"><a href="https://www.instagram.com/jasminder___singh/"><AiFillInstagram size="20px" />Instagram</a></button>
+          <button id="mid_btn_space"><a href= "mailto: itsjasminder@gmail.com"><HiOutlineMail size="20px" />Email</a></button>
         </div>
         </div>
       </div>
