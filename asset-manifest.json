@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Protfilio-book/static/css/main.e92e3dde.css",
+    "main.js": "/Protfilio-book/static/js/main.b27c7d2d.js",
+    "static/js/787.128fc6e9.chunk.js": "/Protfilio-book/static/js/787.128fc6e9.chunk.js",
+    "static/media/image1.jpg": "/Protfilio-book/static/media/image1.1cd5eb11864819ff5399.jpg",
+    "index.html": "/Protfilio-book/index.html",
+    "main.e92e3dde.css.map": "/Protfilio-book/static/css/main.e92e3dde.css.map",
+    "main.b27c7d2d.js.map": "/Protfilio-book/static/js/main.b27c7d2d.js.map",
+    "787.128fc6e9.chunk.js.map": "/Protfilio-book/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e92e3dde.css",
+    "static/js/main.b27c7d2d.js"
+  ]
+}
