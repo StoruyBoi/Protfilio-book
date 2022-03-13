@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Rowdies:wght@300&display=swap");
+
+/* ------------------------ Styling for header navbar  --------------------------------*/
+.NavBar {
+  /* border: 2px solid white; */
+  display: flex;
+  padding: 20px;
+  height: 144px;
+  background: #121212;
+
+}
+.NavBar_Main_box {
+  margin: auto;
+  border: 2px solid white;
+  width: 1553px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 13px;
+}
+
+.dark_mode{
+  cursor: pointer;
+  color: white;
+}
+/* ---------------------stying for white class name ForWhite ---------------------------------------------- */
+.ForWhite {
+  color: white;
+}
+.ForWhite a{
+  text-decoration: none;
+  color: white;
+}
+
+.MainBox_Main_List ul {
+  display: flex;
+}
+.MainBox_Main_List ul li {
+  list-style: none;
+}
+.MainBox_Main_List ul li a {
+  padding: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#security{
+  display: none;
+}
+/* -----------------------stlyling for custom button------------------------ */
+.MianBox_login >button {
+  --color: #00ffffba;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #121212;
+
+}
+.MianBox_login >button >a {
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  /* padding: 15px; */
+  /* padding: 5px; */
+  /* justify-content: space-evenly; */
+  display: flex;
+}
+.MianBox_login >button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.MianBox_login >button:hover {
+  color: rgb(255, 255, 255);
+}
+
+.MianBox_login >button:before {
+  top: 100%;
+  left: 100%;
+  display: none;
+  transition: all 0.7s;
+}
+
+.MianBox_login >button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.MianBox_login >button:active:before {
+  background: #3a0ca3;
+  transition: background 0s;
+}
+
+.hello {
+  display: none;
+  border: 2px solid;
+  color: white;
+}
+.hamburger {
+  display: none;
+}
+
+/* -----------------------------------------------for hamburger styling----------------------------------- */
+
+/* -----------------------for mobile version to show  responsive ness use of media query-------------------- */
+
+@media screen and (max-width: 818px) {
+  .MainBox_Main_List {
+    display: none;
+  }
+.dark_mode{
+  display: none;
+}
+
+  .only_this_to_hide_inMobile {
+    display: none;
+  }
+
+  .NavBar_Main_box {
+    padding: 10px;
+    justify-content: space-between;
+    border: none;
+    margin: inherit;
+    display: flex;
+}
+
+  .hamburger {
+    display: block;
+  }
+}
+
+

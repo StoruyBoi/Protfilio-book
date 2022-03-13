@@ -1,0 +1,36 @@
+.mobile_list {
+    top: 0;
+    top: 4;
+    width: 56%;
+border: 2px solid white;
+    height: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+}
+
+.list_box {
+    text-align: center;
+    display: grid;
+  margin: auto;
+
+}
+.list_box > ul {
+  list-style: none;
+}
+.list_box > ul > li{
+padding: 0px;
+}
+
+.list_box > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (min-width: 818px) {
+  .mobile_list {
+    display: none;
+  }
+}

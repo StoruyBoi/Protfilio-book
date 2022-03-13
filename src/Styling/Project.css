@@ -1,0 +1,98 @@
+.project_box {
+  /* background: #121212; */
+
+  color: white;
+  /* border: 2px solid; */
+}
+.content_upper {
+  text-align: center;
+}
+.box_main_content {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: auto;
+  margin-top: 40px;
+  justify-content: center;
+  /* border: 2px solid; */
+}
+.porjext_photo_section img {
+  width: 88%;
+  object-fit: contain;
+  margin: 18px;
+}
+
+.content_project_box1 {
+  width: 370px;
+  margin: 10px;
+  /* border: 2px solid; */
+}
+.main_conten_project {
+    overflow: hidden;
+    border-radius: 3px;
+    background: #1B1B1D;
+}
+.card_content {
+  flex-direction: column;
+  /* border: 2px solid; */
+  padding: 0 14px;
+  display: flex;
+  padding-left: 17px;
+}
+.cards {
+}
+.card_title h1 {
+}
+.card_tag p {
+}
+/* -----------------fro card styling----------------- */
+
+.project_image {
+  padding: 20px;
+  background: #1B1B1D;
+}
+.formar {
+  margin-top: 20px;
+}
+
+.project_image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.project_content {
+  padding: 0 20px;
+  background: #1B1B1D;
+}
+.project_title h1 {
+    background: #1B1B1D;
+}
+.project_tags p {
+    background: #1B1B1D;
+    color: skyblue;
+}
+.project_info p {
+    background: #1B1B1D;
+    font-weight: 600;
+}
+.project_buttons {
+    background: #1B1B1D;
+    display: flex;
+}
+.project_buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border: 1px solid;
+    width: 100%;
+    cursor: pointer;
+    height: 39px;
+    color: white;
+}
+.project_content {
+  color: white;
+}
+.box_small_title{
+    margin-top: 20px;
+}
