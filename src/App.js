@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/Project" element={<Project/>}></Route>
           <Route exact path="/Contact" element={<Contact/>}></Route>
           <Route exact path="/Blog" element={<Blog/>}></Route>
-          <Route exact path="/" element={<MainBox/>}></Route>
+          <Route exact path="/Protfilio-book" element={<MainBox/>}></Route>
         </Routes>
       </Router>
     </>
