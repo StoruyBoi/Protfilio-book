@@ -147,11 +147,10 @@
     #container2 {
         font-size: 3em;
     }
-    #container3{
-
+  
     }
     
-}
+
 
 @media screen and (max-width: 320px) {
     #container2 {
