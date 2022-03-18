@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css"
 import   "../Styling/Navbar.css";
 import { Turn as Hamburger } from "hamburger-react";
 import Mobileversion from "./Mobileversion";
@@ -23,7 +24,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="NavBar">
+    <div className="NavBar light_mode">
       <div className="NavBar_Main_box">
         <div className="MianBox_logo">
           <h1 className="ForWhite test">
@@ -56,7 +57,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="MianBox_login only_this_to_hide_inMobile">
-          <button>Login</button>
+          <button> Login</button>
         </div>
 
         <div className="hamburger">

@@ -1,10 +1,11 @@
 import React from "react";
+import "../App.css"
 import "../Styling/Contact.css";
 
 export default function Contact() {
   return (
     <>
-      <div className="Contact_box">
+      <div className="Contact_box light_mode">
         <div className="Contact_box_container">
           <h1 id="for_small">Get in touch</h1>
           <hr id="straight_line" />

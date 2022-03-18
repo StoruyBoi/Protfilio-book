@@ -1,6 +1,7 @@
 import { AiFillInstagram } from 'react-icons/ai';
 import { HiOutlineMail } from 'react-icons/hi';
 import { AiFillGithub } from 'react-icons/ai';
+import "../App.css"
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import React from "react";
@@ -9,7 +10,7 @@ import "../Styling/MainBox.css";
 export default function MainBox() {
   return (
     <>
-      <div className="Main_box_contianer">
+      <div className="Main_box_contianer light_mode">
         <div className="container_cotent_box">
           <div className="content_box_samall_title content_box_mar">
             <p>WELCOME TO OPENBOOK</p>

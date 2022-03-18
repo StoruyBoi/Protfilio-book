@@ -1,10 +1,11 @@
 import React from "react";
 import "../Styling/Blog.css";
+import "../App.css"
 
 export default function Blog() {
   return (
     <>
-      <div className="blog_container">
+      <div className="blog_container light_mode">
         <div className="blog_upper_section">
           <div className="blog_title">
             <h1>BLOG</h1>

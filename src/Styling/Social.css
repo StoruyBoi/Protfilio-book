@@ -1,0 +1,8 @@
+.Social_main_box {
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    /* height: 800px; */
+}

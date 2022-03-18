@@ -1,0 +1,50 @@
+.left_box {
+    /* border: 2px solid; */
+    padding: 20px;
+    /* width: 21%; */
+}
+.left_box_main {
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid; */
+    margin: 5px;
+    border-radius: 0 12px 12px 0;
+    background: #F6F9FB;
+    flex-direction: 330px;
+}
+.mian_nav_search{
+    margin-left: 20px;
+}
+.mian_nav_bar {
+    display: flex;
+
+}
+.main_goup_titile > h1 {
+    font-size: 20px;
+}
+.main_goup_titile {
+    margin: 20px 0;
+}
+.mian_group_icons{
+    display: flex;
+    flex-direction: column;
+}
+.group_1 {
+    display: flex;
+    align-items: center;
+}
+.group_2 {
+    display: flex;
+    align-items: center;
+}
+.group_name{
+    margin-left: 20px;
+}
+.main_friend_section {
+    margin: 30px 0;
+}
+.friend_title> h1{
+    font-size: 20px;
+
+}
