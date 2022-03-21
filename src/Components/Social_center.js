@@ -36,8 +36,9 @@ export default function Social_center() {
         </div>
         </div>
         <div className="box_maain_content">
-     
-     
+
+
+
 
         <Routes>
            <Route exact path="/Projects" element={<Project/>}></Route>

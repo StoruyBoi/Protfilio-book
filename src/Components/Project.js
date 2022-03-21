@@ -40,8 +40,9 @@ export default function Project() {
                 </p>
               </div>
             </div>
-            <div className="project_buttons formar" id="forbg">
-              <button><a  href="https://storuyboi.github.io/Protfilio-book/"otfilio-bo>Try it</a></button> <button> <a href="https://github.com/StoruyBoi/Protfilio-book"></a><AiFillGithub size="100%" /></button>
+            <div className="project_buttons check formar" id="forbg">
+              <a href="https://storuyboi.github.io/Protfilio-book/"> <button>Try it</button> </a>
+             <button> <a href="https://github.com/StoruyBoi/Protfilio-book"></a><AiFillGithub size="100%" /></button>
             </div>
           </div>
           

@@ -1,8 +1,61 @@
-import React from "react";
-import "../App.css"
+import React, { useState } from "react";
+import "../App.css";
 import "../Styling/Contact.css";
 
 export default function Contact() {
+  const [userData, setUserData] = useState({
+    firstName: "",
+    textEmail: "",
+    Message: "",
+  });
+  let name, value;
+  const postUserData = (event) => {
+    name = event.target.name;
+    value = event.target.value;
+    setUserData({ ...userData, [name]: value });
+  };
+
+  const submitData = async (event) => {
+    event.preventDefault();
+    const { firstName, textEmail, Message } = userData;
+    if(firstName && textEmail && Message )
+    {
+      
+    
+    const res = fetch(
+      "https://portfolio-c7831-default-rtdb.firebaseio.com/userDataRecords.json",
+
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        body: JSON.stringify({
+          firstName,
+          textEmail,
+          Message,
+        }),
+      }
+    );
+
+    if (res) {
+setUserData({
+  firstName: "",
+    textEmail: "",
+    Message: "",
+})
+
+      alert("Data Stored");
+    } else {
+      alert("plz fill the dat");
+    }
+  }
+  else{
+    alert("Plz fill the data")
+  }
+  };
+
   return (
     <>
       <div className="Contact_box light_mode">
@@ -21,7 +74,9 @@ export default function Contact() {
               <input
                 className="inputText"
                 type="text"
-                name="Text"
+                value={userData.firstName}
+                onChange={postUserData}
+                name="firstName"
                 id="AddName"
               />
             </div>
@@ -30,8 +85,10 @@ export default function Contact() {
               <input
                 className="inputText"
                 type="email"
-                name="Email"
+                name="textEmail"
                 id="AddEmail"
+                value={userData.textEmail}
+                onChange={postUserData}
               />
             </div>
 
@@ -40,14 +97,16 @@ export default function Contact() {
               <div className="uplaceholder">Message</div>
               <textarea
                 id="inputText"
-                name="Text"
+                name="Message"
                 className=" inputText addtext"
                 cols="30"
                 rows="10"
+                onChange={postUserData}
+                value={userData.Message}
               ></textarea>
             </div>
             <div className="contaienr_input_button">
-              <button className="arrow_btn">
+              <button className="arrow_btn" onClick={submitData}>
                 <div class="svg-wrapper-1">
                   <div class="svg-wrapper">
                     <svg
