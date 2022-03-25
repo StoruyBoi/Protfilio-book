@@ -41,7 +41,7 @@ export default function Project() {
               </div>
             </div>
             <div className="project_buttons check formar" id="forbg">
-              <a href="https://storuyboi.github.io/Protfilio-book/"> <button>Try it</button> </a>
+              <button>Try it</button> 
              <button> <a href="https://github.com/StoruyBoi/Protfilio-book"></a><AiFillGithub size="100%" /></button>
             </div>
           </div>

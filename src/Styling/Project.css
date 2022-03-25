@@ -31,7 +31,7 @@
 }
 .main_conten_project {
   overflow: hidden;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background: white;
 }
 .card_content {
@@ -94,15 +94,15 @@ iframe{
 }
 .project_buttons button {
   background: #c0cbd1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4px;
-    border: 1px solid;
-    width: 100%;
-    cursor: pointer;
-    height: 39px;
-    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border: 1px solid;
+  cursor: pointer;
+  height: 39px;
+  width: 100%;
+  color: white;
 }
 .project_content {
   color: white;
